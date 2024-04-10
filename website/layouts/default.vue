@@ -34,19 +34,19 @@
                         </NuxtLink>
                     </v-list>
                 </v-menu>
-                <v-btn to="/" variant="plain">
+                <v-btn to="/tienda" variant="plain">
                     <p>Tienda</p>
                 </v-btn>
-                <v-btn to="/" variant="plain">
+                <v-btn to="/rutas" variant="plain">
                     <p>Rutas</p>
                 </v-btn>
-                <v-btn to="/" variant="plain">
+                <v-btn to="/contacto" variant="plain">
                     <p>Contacto</p>
                 </v-btn>
-                <v-btn to="/" variant="plain" icon>
+                <v-btn to="/cuenta" variant="plain" icon>
                     <v-icon>mdi-account</v-icon>
                 </v-btn>
-                <v-btn to="/" variant="plain" icon>
+                <v-btn to="/carrito" variant="plain" icon>
                     <v-icon>mdi-cart-outline</v-icon>
                 </v-btn>
             </v-app-bar>
