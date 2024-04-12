@@ -22,11 +22,13 @@
         <v-divider :thickness="3" class="border-opacity-100" color="blue"></v-divider>
         <v-sheet color="#C8E8F5" :elevation="4" height="350" width="100%" class="d-inline-flex">
             <div>
-                <p class="text-h4 ml-10 mt-5" style ="font-weight: 200;white-space: nowrap;" >¿Quiénes Somos?</p>
+                <p class="text-h4 ml-10 mt-5" style ="font-weight: 400;white-space: nowrap;" >¿Quiénes Somos?</p>
                 <v-img src="~~/assets/logo.jpg" height="250" width="250"  class="ml-10"></v-img>
             </div>
-            <div class="mx-16 mt-15">
-                <p>This business determines the use of personal data collectied on our media properties and across the internet. We may collect data that you submit to us directly or data that we collect automatically including from cookies (such as device information or IP address).</p>
+            <div class="mx-16 " style="display: flex; align-items: center;">
+                <p style="font-weight: 300">Nos dedicamos a la purificación y distribución de agua para distintos sectores como fondas, restaurantes y hogares de la zona de San Andrés Cholula, San Pedro Cholula, Lomas y algunas zonas de Puebla Centro. Así como servicio de rellenado en ventanilla en distintos volúmenes de envasado. 
+
+(botellas, bidones, garrafones). </p>
             </div>
         </v-sheet>
         <v-sheet color="#EFF7FA" :elevation="4" height="450" width="100%">
@@ -44,14 +46,14 @@
                     <v-card-title>Botella de agua 1L</v-card-title>
                     <v-img src="assets/bottle1L.png" height="200" width="200"/>
                     <v-card-text>
-                         $15
+                         $13.50
                     </v-card-text>
                 </v-card>
                 <v-card width="283" class="mx-auto" align="center">
                     <v-card-title>Botella de agua 600ml</v-card-title>
                     <v-img src="assets/bottle600ml.png" height="200" width="200"/>
                     <v-card-text>
-                         $15
+                         $11
                     </v-card-text>
                 </v-card>
             </div>
@@ -83,27 +85,24 @@
                 <p>This business determines the use of personal data collectied on our media properties and across the internet. We may collect data that you submit to us directly or data that we collect automatically including from cookies (such as device information or IP address).</p>
             </div>
         </v-sheet>
-        <v-sheet color="white" :elevation="4" height="150" width="100%" class="d-inline-flex">
-            <div>
-                <p class="text-h4 ml-10">Contáctanos</p>
-                <div class="mx-16 mt-15 d-inline-flex">
-                    <v-icon icon="mdi-facebook">
-                    </v-icon>
-                    <p>000 000 00 00</p>
-                    <v-icon icon="mdi-facebook">
-                    </v-icon>
-                    <p>valle del volcán</p>
-                    <v-icon icon="mdi-facebook">
-                    </v-icon>
-                    <p>@valle del volcán</p>
-                </div>
-            </div>
-        </v-sheet>
-        <v-footer>
-            <div>
-                2025 - <strong>Valle del Volcán</strong>
-            </div>
-        </v-footer>
+        <v-footer class="d-flex flex-column">
+    <div class="bg-teal d-flex w-100 align-center px-4">
+      <strong>Contactanos </strong>
+
+      <v-spacer></v-spacer>
+
+      <v-btn
+        v-for="icon in icons"
+        :key="icon"
+        :icon="icon"
+        class="mx-4"
+        size="small"
+        variant="plain"
+      ></v-btn>
+    </div>
+
+   
+  </v-footer>
     </div>
 </template>
 <script>
