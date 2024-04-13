@@ -11,7 +11,7 @@
                 </p>
         </v-carousel-item>
             <v-carousel-item
-            src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+            src="assets/local.jpeg"
             cover>
             </v-carousel-item>
             <v-carousel-item
