@@ -4,7 +4,7 @@
             <v-app-bar>
                 <v-app-bar-title>
                     <NuxtLink to="/" class="d-inline-flex" style="text-decoration: none;">
-                        <v-img src="~~/assets/logo.jpg" height="70" width="70"  class="mx-2" contain></v-img>
+                        <v-img src="~~/assets/logo.png" height="70" width="70"  class="mx-2" contain></v-img>
                         <p style="color: black;" class="my-5">Valle del Volcán</p>
                     </NuxtLink>
                 </v-app-bar-title>

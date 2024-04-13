@@ -11,7 +11,7 @@
                 </p>
         </v-carousel-item>
             <v-carousel-item
-            src="assets/local.jpeg"
+            src="assets/local.jpeg  "
             cover>
             </v-carousel-item>
             <v-carousel-item
@@ -23,7 +23,7 @@
         <v-sheet color="#C8E8F5" :elevation="4" height="350" width="100%" class="d-inline-flex">
             <div>
                 <p class="text-h4 ml-10 mt-5" style ="font-weight: 400; white-space: nowrap;" >¿Quiénes Somos?</p>
-                <v-img src="~~/assets/logo.jpg" height="250" width="250"  class="ml-10"></v-img>
+                <v-img src="~~/assets/logo.png" height="250" width="250"  class="ml-10"></v-img>
             </div>
             <div class="mx-16 " style="display: flex; align-items: center;">
                 <p style="font-weight: 300">Nos dedicamos a la purificación y distribución de agua para distintos sectores como fondas, restaurantes y hogares de la zona de San Andrés Cholula, San Pedro Cholula, Lomas y algunas zonas de Puebla Centro. Así como servicio de rellenado en ventanilla en distintos volúmenes de envasado. 
@@ -61,7 +61,7 @@
         <v-sheet color="#3F6677" :elevation="4" height="350" width="100%" class="d-inline-flex">
             <div>
                 <p class="text-h4 ml-10">¿Quiénes Somos?</p>
-                <v-img src="~~/assets/logo.jpg" height="250" width="250"  class="ml-10"></v-img>
+                <v-img src="~~/assets/logo.png" height="250" width="250"  class="ml-10"></v-img>
             </div>
             <div class="mx-16 mt-15">
                 <p>This business determines the use of personal data collectied on our media properties and across the internet. We may collect data that you submit to us directly or data that we collect automatically including from cookies (such as device information or IP address).</p>
@@ -70,7 +70,7 @@
         <v-sheet color="white" :elevation="4" height="350" width="100%" class="d-inline-flex">
             <div>
                 <p class="text-h4 ml-10">¿Quiénes Somos?</p>
-                <v-img src="~~/assets/logo.jpg" height="250" width="250"  class="ml-10"></v-img>
+                <v-img src="~~/assets/logo.png" height="250" width="250"  class="ml-10"></v-img>
             </div>
             <div class="mx-16 mt-15">
                 <p>This business determines the use of personal data collectied on our media properties and across the internet. We may collect data that you submit to us directly or data that we collect automatically including from cookies (such as device information or IP address).</p>
@@ -79,7 +79,7 @@
         <v-sheet color="87BFD7" :elevation="4" height="350" width="100%" class="d-inline-flex">
             <div>
                 <p class="text-h4 ml-10">¿Quiénes Somos?</p>
-                <v-img src="~~/assets/logo.jpg" height="250" width="250"  class="ml-10"></v-img>
+                <v-img src="~~/assets/logo.png" height="250" width="250"  class="ml-10"></v-img>
             </div>
             <div class="mx-16 mt-15">
                 <p>This business determines the use of personal data collectied on our media properties and across the internet. We may collect data that you submit to us directly or data that we collect automatically including from cookies (such as device information or IP address).</p>
