@@ -22,7 +22,7 @@
         <v-divider :thickness="3" class="border-opacity-100" color="blue"></v-divider>
         <v-sheet color="#C8E8F5" :elevation="4" height="350" width="100%" class="d-inline-flex">
             <div>
-                <p class="text-h4 ml-10 mt-5" style ="font-weight: 400;white-space: nowrap;" >¿Quiénes Somos?</p>
+                <p class="text-h4 ml-10 mt-5" style ="font-weight: 400; white-space: nowrap;" >¿Quiénes Somos?</p>
                 <v-img src="~~/assets/logo.jpg" height="250" width="250"  class="ml-10"></v-img>
             </div>
             <div class="mx-16 " style="display: flex; align-items: center;">
@@ -107,7 +107,7 @@
 </template>
 <script>
 </script>
-<style >
+<style scoped >
 a {
     color: white;
     text-decoration: none;
