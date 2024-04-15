@@ -4,20 +4,20 @@
             <v-app-bar>
                 <v-app-bar-title>
                     <NuxtLink to="/" class="d-inline-flex" style="text-decoration: none;">
-                        <v-img src="~~/assets/logo.png" height="70" width="70"  class="mx-2" contain></v-img>
-                        <p style="color: black;" class="my-5">Valle del Volcán</p>
+                        <v-img src="~~/assets/logo.png" height="100" width="100"  class="mx-2" contain></v-img>
+                        <!--<p style="color: black;" class="my-9">Valle del Volcán</p>  -->
                     </NuxtLink>
                 </v-app-bar-title>
 
                 <v-spacer></v-spacer>
 
                 <v-btn to="/" variant="plain">
-                    <p>Inicio</p>
+                    <p class="option">Inicio</p>
                 </v-btn>
                 <v-menu>
                     <template v-slot:activator="{ props: menu }">
                         <v-btn variant="plain" v-bind="menu">
-                            <p>Acerca De</p>
+                            <p class="option">Acerca De</p>
                         </v-btn>
                     </template>
                     <v-list>
@@ -26,7 +26,7 @@
                         </NuxtLink>
                         <v-divider class="border-opacity-100" color="black"></v-divider>
                         <NuxtLink to="purificacion" style="text-decoration: none;">
-                            <v-list-item style="color: black;" title="Purificación"></v-list-item>
+                            <v-list-item  style="color: black;" title="Purificación"></v-list-item>
                         </NuxtLink>
                         <v-divider class="border-opacity-100" color="black"></v-divider>
                         <NuxtLink to="portafolio" style="text-decoration: none;">
@@ -35,19 +35,19 @@
                     </v-list>
                 </v-menu>
                 <v-btn to="/tienda" variant="plain">
-                    <p>Tienda</p>
+                    <p class="option">Tienda</p>
                 </v-btn>
                 <v-btn to="/rutas" variant="plain">
-                    <p>Rutas</p>
+                    <p class="option">Rutas</p>
                 </v-btn>
                 <v-btn to="/contacto" variant="plain">
-                    <p>Contacto</p>
+                    <p class="option">Contacto</p>
                 </v-btn>
                 <v-btn to="/cuenta" variant="plain" icon>
                     <v-icon>mdi-account</v-icon>
                 </v-btn>
                 <v-btn to="/carrito" variant="plain" icon>
-                    <v-icon>mdi-cart-outline</v-icon>
+                    <v-icon class="option">mdi-cart-outline</v-icon>
                 </v-btn>
             </v-app-bar>
             <v-main class="d-flex align-center justify-center">
@@ -59,4 +59,11 @@
 <script>
 </script>
 <style scoped>
+.option{
+    color: gray;
+}
+
+.option:hover{
+    color: #3F6677;
+}
 </style>
