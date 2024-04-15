@@ -3,6 +3,7 @@ import {resolve} from "path"
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 import { defineNuxtConfig } from 'nuxt/config'
 
+
 export default defineNuxtConfig({
   //...
   runtimeConfig: {
@@ -27,7 +28,29 @@ export default defineNuxtConfig({
     },
     //...
     '@vee-validate/nuxt',
+    '@nuxtjs/i18n',
   ],
+  //@ts-ignore
+  i18n:{
+    lazy: true,
+    langDir: "locales",
+    strategy: "prefix_except_default",
+    locales: [
+      {
+        code: 'en-US',
+        iso: 'en-US',
+        name: 'English (United States)',
+        file: 'en-US.json'
+      },
+      {
+        code: 'es-MX',
+        iso: 'es-MX',
+        name: 'Español (México)',
+        file: 'es-MX.json'
+      }
+    ],
+    defaultLocale: "es-MX",
+  },
   vite: {
     vue: {
       template: {
