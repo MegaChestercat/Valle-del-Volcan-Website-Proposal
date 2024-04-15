@@ -17,7 +17,7 @@ Nuestras botellas de agua personalizadas son más que simples recipientes; son u
                 <p style="font-weight: 300; text-align: justify; font-size: 18px;">¡Deja que nosotros te llevemos la pureza del agua directamente a tu puerta!
                 En Valle del Volcán, sabemos lo importante que es tener acceso a agua purificada y de calidad en la comodidad de tu hogar. Es por eso que ofrecemos un servicio de entrega a domicilio de garrafones de agua purificada en San Andrés Cholula, San Pedro Cholula y algunas zonas seleccionadas del centro de Puebla.
                 Nuestro proceso de purificación garantiza que cada gota de agua que recibas sea fresca, limpia y segura para el consumo, proporcionándote la tranquilidad de saber que estás cuidando de ti y de tu familia.</p>
-                    <v-btn color="white" class="my-2">Nuestras rutas</v-btn>
+                    <v-btn color="white" class="my-2" :to="localPath('/rutas')">Nuestras rutas</v-btn>
                 </div>
                 <v-img src="~~/assets/Camioneta.jpeg" height="250" width="250"  class="mr-10"></v-img>
             </div>
@@ -46,7 +46,9 @@ Nuestras botellas de agua personalizadas son más que simples recipientes; son u
         </v-sheet>
         
 </template>
-<script>
+<script setup>
+const localPath = useLocalePath()
+
 </script>
 <style scoped>
 
