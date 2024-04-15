@@ -36,7 +36,7 @@ Nuestras botellas de agua personalizadas son más que simples recipientes; son u
         </v-sheet>
         <v-sheet color="#71ABC3" :elevation="4" height="350" width="100%" >
             <p class="text-h4 ml-10 mt-5" style ="font-weight: 400; white-space: nowrap; text-align: center" >Disponible 24hrs</p>
-            <div style="padding-left: 30px;" class="d-inline-flex">
+            <div style="padding-left: 30px; flex-direction:row">
                 <div class="mx-16 mt-16 flex-column " style="display: flex; aligxn-items: center;">
                 <p style="font-weight: 300; text-align: justify; font-size: 18px;">¡Descubre la comodidad absoluta con el servicio 24 horas de Valle del Volcán a través de nuestra máquina expendedora en la sucursal! Con acceso ininterrumpido a agua purificada de alta calidad en cualquier momento del día o de la noche, nuestra máquina garantiza la conveniencia que necesitas, respaldada por la fiabilidad y la calidad que caracterizan a Valle del Volcán. Simplifica tu vida con nuestra máquina expendedora, siempre lista para proporcionarte la frescura y pureza del agua que mereces.</p>
                 </div>
