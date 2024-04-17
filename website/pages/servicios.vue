@@ -1,49 +1,69 @@
 <template>
-        
-            <v-sheet color="#71ABC3" :elevation="4" height="350" width="100%" class="flex-column" style="text-align:center">
-            <p class="text-h4 ml-10 mt-5" style ="font-weight: 400; white-space: nowrap;" >Botellas personalizadas </p>
-            <div style="padding-left: 30px;" class="d-inline-flex">
-                <v-img src="~~/assets/logo.png" height="250" width="250"  class="ml-10"></v-img>
-                <div class="mx-16 " style="display: flex; align-items: center;">
-                <p style="font-weight: 300; text-align: justify; font-size: 18px;">En Valle del Volcán, entendemos que cada detalle cuenta cuando se trata de hacer que tu evento o marca destaque. Es por eso que ofrecemos un servicio de personalización de botellas de agua que no solo refrescará a tus invitados, sino que también dejará una impresión duradera.
-Nuestras botellas de agua personalizadas son más que simples recipientes; son una oportunidad para expresar la identidad y el mensaje de tu marca de una manera única y memorable. Ya sea que estés organizando una conferencia, una boda, un concierto o cualquier otro tipo de evento, nuestras botellas personalizadas agregarán un toque de distinción y estilo</p>
-            </div>
+    <div>
+        <v-sheet color="#71ABC3" width="100%">
+            <p class="text-h4 ml-10 pt-5 text-center">{{ $t('ServicesT1') }}</p>
+            <div class="ml-16 d-flex justify-space-evenly">
+                <div class="mb-7">
+                    <v-img src="~~/assets/custom_bottles.jpg" height="250" width="250" class="mx-10"></v-img>
+                </div>
+                <div class="mx-16 d-flex align-center" >
+                    <div class="d-block">
+                        <p class="text-justify">{{ $t('Services1') }}</p>
+                        <p class="text-justify mt-4">{{ $t('Services1_1') }}</p>
+                    </div>
+                </div>
             </div>
         </v-sheet>
-        <v-sheet color="#3F6677" :elevation="4" height="350" width="100%" class="flex-column" style="text-align:center">
-            <p class="text-h4 ml-10 mt-5" style ="font-weight: 400; white-space: nowrap;" >Hasta la puerta de tu casa </p>
-            <div style="padding-left: 30px;" class="d-inline-flex">
-                <div class="mx-16 mt-16 flex-column " style="display: flex; align-items: center;">
-                <p style="font-weight: 300; text-align: justify; font-size: 18px;">¡Deja que nosotros te llevemos la pureza del agua directamente a tu puerta!
-                En Valle del Volcán, sabemos lo importante que es tener acceso a agua purificada y de calidad en la comodidad de tu hogar. Es por eso que ofrecemos un servicio de entrega a domicilio de garrafones de agua purificada en San Andrés Cholula, San Pedro Cholula y algunas zonas seleccionadas del centro de Puebla.
-                Nuestro proceso de purificación garantiza que cada gota de agua que recibas sea fresca, limpia y segura para el consumo, proporcionándote la tranquilidad de saber que estás cuidando de ti y de tu familia.</p>
-                    <v-btn color="white" class="my-2" :to="localPath('/rutas')">Nuestras rutas</v-btn>
+        <v-sheet color="#3F6677" height="350" width="100%" class="flex" >
+            <p class="text-h4 pt-5 text-center">{{ $t('ServicesT2') }}</p>
+            <div class="ml-7 d-flex">
+                <div class="mx-16 mt-16 d-flex">
+                    <div class="d-block">
+                        <p class="text-justify">{{ $t('Services2') }}</p>
+                        <p class="mt-4">{{ $t('Services2_1') }}</p>
+                        <div class="d-flex justify-center">
+                            <v-btn color="white" size="large" class="my-4 text-none" prepend-icon="mdi-truck" :to="localPath('/rutas')">{{ $t('ServicesBTN1') }}</v-btn>
+                        </div>
+                    </div>
                 </div>
                 <v-img src="~~/assets/Camioneta.jpeg" height="250" width="250"  class="mr-10"></v-img>
             </div>
             
         </v-sheet>
-        <v-sheet color="#E0F0F7" :elevation="4" height="350" width="100%" class="flex-column" style="text-align:center">
-            <p class="text-h4 ml-10 mt-5" style ="font-weight: 400; white-space: nowrap;" >Servicio en ventanilla</p>
-            <div style="padding-left: 30px;" class="d-inline-flex">
+        <v-sheet color="#E0F0F7" width="100%" class="flex">
+            <p class="text-h4 ml-10 pt-5 text-center">{{ $t('ServicesT3') }}</p>
+            <div class="ml-7 d-flex">
                 <v-img src="~~/assets/Ventanilla.jpeg" height="250" width="250"  class="mr-10"></v-img>
                 <div class="mx-16 mt-16 flex-column " style="display: flex; align-items: center;">
-                <p style="font-weight: 300; text-align: justify; font-size: 18px;">¡Valle del Volcán te ofrece la máxima conveniencia y calidad con nuestro servicio en ventanilla! Obtén tus garrafones de agua purificada de manera rápida y eficiente en nuestra ubicación central, donde cada garrafón está garantizado para brindarte la frescura y pureza que mereces. Simplifica tu día a día con Valle del Volcán.</p>
+                <p class="text-justify">{{ $t('Services3') }}</p>
+                <p class="text-justify font-italic mt-5">{{ $t('Services3_1') }}</p>
                 </div>
-                
             </div>
             
         </v-sheet>
-        <v-sheet color="#71ABC3" :elevation="4" height="350" width="100%" >
-            <p class="text-h4 ml-10 mt-5" style ="font-weight: 400; white-space: nowrap; text-align: center" >Disponible 24hrs</p>
-            <div style="padding-left: 30px; flex-direction:row">
-                <div class="mx-16 mt-16 flex-column " style="display: flex; aligxn-items: center;">
-                <p style="font-weight: 300; text-align: justify; font-size: 18px;">¡Descubre la comodidad absoluta con el servicio 24 horas de Valle del Volcán a través de nuestra máquina expendedora en la sucursal! Con acceso ininterrumpido a agua purificada de alta calidad en cualquier momento del día o de la noche, nuestra máquina garantiza la conveniencia que necesitas, respaldada por la fiabilidad y la calidad que caracterizan a Valle del Volcán. Simplifica tu vida con nuestra máquina expendedora, siempre lista para proporcionarte la frescura y pureza del agua que mereces.</p>
+        <v-sheet color="#71ABC3" width="100%" >
+            <p class="text-h4 ml-10 pt-5 text-center">Disponible 24hrs</p>
+            <div class="px-7">
+                <div class="mx-16 mt-16 flex" style="display: flex; align-items: center;">
+                    <div class="d-block">
+                        <p class="text-center">{{ $t('Services4') }}</p>
+                        <p class="text-center font-italic mt-5">{{ $t('Services4_1') }}</p>
+                    </div>
                 </div>
-                <v-img src="~~/assets/Maquina.jpeg" height="250" width="250"  class="mr-10"></v-img>
+                <div class="d-flex justify-center">
+                    <div>
+                        <v-img src="~~/assets/Maquina.jpeg" height="450" width="450" ></v-img>
+                    </div>
+                </div>
             </div>
             
         </v-sheet>
+        <v-footer color="light-blue-lighten-5" class="d-flex justify-center">
+            <div>
+                <p>2025 - <strong>Valle del Volcán</strong></p>
+            </div>
+        </v-footer>
+    </div>
         
 </template>
 <script setup>

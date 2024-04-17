@@ -42,9 +42,6 @@
                 <v-btn :to="localPath('/contacto')" variant="plain">
                     <p class="option text-none">{{ $t('header_5') }}</p>
                 </v-btn>
-                <v-btn :to="localPath('/cuenta')" variant="plain" icon>
-                    <v-icon>mdi-account</v-icon>
-                </v-btn>
                 <v-btn :to="localPath('/carrito')" variant="plain" icon>
                     <v-icon class="option">mdi-cart-outline</v-icon>
                 </v-btn>
