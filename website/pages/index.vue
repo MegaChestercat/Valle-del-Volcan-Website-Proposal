@@ -115,7 +115,7 @@
             </div>
             
         </v-sheet>
-        <v-sheet color="87BFD7" width="100%" class="d-flex">
+        <v-sheet color="#87BFD7" width="100%" class="d-flex">
             <div>
                 <p class="text-h4 text-center mt-8 font-weight-bold">{{ $t('homeT5') }}</p>
                 <v-img src="~~/assets/local_front.jpg" height="350" width="350"  class="ml-10"></v-img>
@@ -144,7 +144,7 @@
         </v-sheet>
         <v-footer color="light-blue-lighten-5" class="d-flex justify-center">
             <div>
-                <p>2025 - <strong>Valle del Volcán</strong></p>
+                <p class="text-caption">2025 - <strong>Valle del Volcán</strong></p>
             </div>
         </v-footer>
     </div>

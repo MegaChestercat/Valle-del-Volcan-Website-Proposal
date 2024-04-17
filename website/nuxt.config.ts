@@ -7,7 +7,9 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   //...
   runtimeConfig: {
-    MONGO_URI: process.env.MONGODB_URI
+    MONGO_URI: process.env.MONGODB_URI,
+    EMAIL_USER : process.env.EMAIL_USER,
+    EMAIL_PASSWORD: process.env.EMAIL_PASSWORD,
   },
   css:[
     'vuetify/lib/styles/main.sass',

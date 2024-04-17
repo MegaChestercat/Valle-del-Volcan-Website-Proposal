@@ -43,7 +43,15 @@
     "Services3_1": "Simplifica tu día a día con Valle del Volcán.",
     "Services4": "Descubra la comodidad absoluta con el servicio 24 horas de Valle del Volcán a través de nuestra máquina expendedora en la sucursal. Con acceso ininterrumpido a agua purificada de alta calidad en cualquier momento del día o de la noche, nuestra máquina le garantiza la comodidad que necesita, respaldada por la fiabilidad y calidad por las que Valle del Volcán es conocido.",
     "Services4_1": "Simplifique su vida con nuestra máquina expendedora, siempre lista para proporcionarle la frescura y pureza de agua que se merece.",
-    "RoutesT1": "Dirección",
-    "Routes1": "Número de Teléfono: (222) 238-44-85",
-    "Routes2": "Horario: 9 a.m. - 10 p.m."
+    "AddressT1": "Dirección",
+    "Address1": "Número de Teléfono: (222) 238-44-85",
+    "Address2": "Horario: 9 a.m. - 10 p.m.",
+    "Contact1": "Contáctanos",
+    "Contact2": "Correo Electrónico",
+    "Contact3": "Nombre Completo",
+    "Contact4": "Asunto",
+    "Contact5": "Mensaje",
+    "Contact6": "Enviar Mensaje",
+    "SocialMedia": "Redes Sociales",
+    "Validation": "El correo debe ser válido"
 }
