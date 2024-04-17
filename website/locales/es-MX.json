@@ -53,5 +53,10 @@
     "Contact5": "Mensaje",
     "Contact6": "Enviar Mensaje",
     "SocialMedia": "Redes Sociales",
-    "Validation": "El correo debe ser válido"
+    "Validation": "El correo debe ser válido",
+    "Routes1": "Rutas",
+    "Routes2": "Routes",
+    "Routes3": "Zonas",
+    "Routes4": "Zones"
+
 }
