@@ -2,23 +2,23 @@
     <div>
         <v-carousel cycle show-arrows="hover">
             <v-carousel-item
-            src="~~/assets/Portada1.png"
+            src="~~/assets/Portada1.jpg"
             cover>
             </v-carousel-item>
             <v-carousel-item
-            src="~~/assets/Portada2.png"
+            src="~~/assets/Portada2.jpg"
             cover>
             </v-carousel-item>
             <v-carousel-item
-            src="~~/assets/Portada3.png"
+            src="~~/assets/Portada3.jpg"
             cover>
             </v-carousel-item>
         </v-carousel>
-        <v-divider :thickness="3" class="border-opacity-100" color="blue"></v-divider>
+        
         <v-sheet color="#C8E8F5" width="100%" class="d-flex">
             <div>
                 <p class="text-h4 ml-10 mt-8 font-weight-bold text-center">{{ $t('homeT1') }}</p>
-                <v-img src="~~/assets/local.jpeg" height="350" width="350"  class="ml-10 "></v-img>
+                <v-img src="~~/assets/local.jpeg" height="450" width="450"  class="ml-10 "></v-img>
             </div>
             <div class="mx-16 mt-15">
                 <p class="text-justify">{{ $t('home1') }}</p>
@@ -56,27 +56,34 @@
                 
 
                 <v-card width="283" class="mx-auto" align="center">
-                    <v-card-title>Botella de agua 1L</v-card-title>
-                    <v-img src="assets/bottle1L.png" height="200" width="200"/>
+                    <v-card-title>{{ $t("bottle_title_1") }}</v-card-title>
+                    <v-img src="assets/Boston-1.png" height="200" width="200"/>
                     <v-card-text>
-                        $13
+                        {{ $t("bottle_description_1") }}
+                    </v-card-text>
+                    <v-card-text>
+                        {{ $t("bottle_price_1") }}
                     </v-card-text>
                 </v-card>
-                <v-card width="283" class="mx-auto" align="center" color="blue">
-                    
-                    <v-card-title>Garrafon 19 lts</v-card-title>
-                    <v-img src="assets/garrafon.png" height="200" width="200"/>
+                <v-card width="283" class="mx-auto" align="center">
+                    <v-card-title>{{ $t("bottle_title_2") }}</v-card-title>
+                    <v-img src="assets/Boston-1.png" height="200" width="200"/>
                     <v-card-text>
-                        $15
+                        {{ $t("bottle_description_2") }}
                     </v-card-text>
-                    <v-card subtitle="Nuestro favorito" ></v-card>
+                    <v-card-text>
+                        {{ $t("bottle_price_2") }}
+                    </v-card-text>
                 </v-card>
 
                 <v-card width="283" class="mx-auto" align="center">
-                    <v-card-title>Botella de agua 600ml</v-card-title>
-                    <v-img src="assets/bottle600ml.png" height="200" width="200"/>
-                     <v-card-text>
-                        $11
+                    <v-card-title>{{ $t("bottle_title_3") }}</v-card-title>
+                    <v-img src="assets/anillada.jpg" height="200" width="200"/>
+                    <v-card-text>
+                        {{ $t("bottle_description_3") }}
+                    </v-card-text>
+                    <v-card-text>
+                        {{ $t("bottle_price_3") }}
                     </v-card-text>
                 </v-card>
             </div>
@@ -91,14 +98,14 @@
             <div>
                 <p class="text-h4 text-center mt-5">{{ $t('homeT3_1') }}</p>
                 <NuxtLink :to="localPath('/servicios')">
-                    <v-img src="~~/assets/Maquina.jpeg" height="400" width="400"></v-img>
+                    <v-img src="~~/assets/Maquina.jpeg" height="450" width="450"></v-img>
                 </NuxtLink>
             </div>
             
             <div>
                 <p class="text-h4 text-center mt-5">{{ $t('homeT3_2') }}</p>
                 <NuxtLink :to="localPath('/purificacion')">
-                    <v-img src="~~/assets/proceso_purificacion.jpg" height="400" width="400" class="my-5"></v-img>
+                    <v-img src="~~/assets/proceso_purificacion.jpg" height="450" width="450" class="my-15"></v-img>
                 </NuxtLink>
                 
             </div>
@@ -121,7 +128,7 @@
         <v-sheet color="#87BFD7" width="100%" class="d-flex">
             <div>
                 <p class="text-h4 text-center mt-8 font-weight-bold">{{ $t('homeT5') }}</p>
-                <v-img src="~~/assets/local_front.jpg" height="350" width="350"  class="ml-10"></v-img>
+                <v-img src="~~/assets/local_front.jpg" height="450" width="450"  class="ml-10"></v-img>
             </div>
             <div class="mx-16 mt-15">
                 <p class="text-justify">{{ $t('home5') }}</p>
@@ -138,8 +145,10 @@
            <div class="d-block">
                 <p class="text-h4 text-center mt-3">{{ $t('homeT6') }}</p>
                 <div class="d-flex ">
-                    <v-img class="ml-15 my-4" src="../assets/whatsapp.png"  width="30" height="30"></v-img>
-                    <p class="text-left ml-3 mt-5">221 530 46 60</p>
+                    <NuxtLink class="d-flex"to="https://wa.me/+522215304660" style="text-decoration: none;" target="_blank">
+                        <v-img class="ml-15 my-4" src="../assets/whatsapp.png"  width="30" height="30"></v-img>
+                        <p class="text-left ml-3 mt-5" style="color: white;">+52 221 530 46 60</p>
+                    </NuxtLink>
                     <v-img class="ml-15 my-4" src="../assets/facebook.png"  width="30" height="30"></v-img>
                     <p class="mt-5 ml-3">valle del volcán</p>
                 </div>

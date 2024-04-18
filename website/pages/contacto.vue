@@ -25,10 +25,10 @@
             <div class="d-flex justify-center">
                 <v-card width="400"  class="rounded my-8" color="rgba(255, 255, 255, 0.8)">
                     <form class="my-7" @submit.prevent="submit">
-                        <v-text-field v-model="email.value.value" class="mx-7" label="Email" variant="solo"></v-text-field>
-                        <v-text-field v-model="name.value.value" class="mx-7" label="Nombre Completo" variant="solo"></v-text-field>
-                        <v-text-field v-model="asunto.value.value" class="mx-7" label="Asunto" variant="solo"></v-text-field>
-                        <v-textarea v-model="mensaje.value.value" class="mx-7" label="Mensaje" variant="solo" no-resize></v-textarea>
+                        <v-text-field v-model="email.value.value" class="mx-7" label="Correo Electrónico / Email" variant="solo"></v-text-field>
+                        <v-text-field v-model="name.value.value" class="mx-7" label="Full Name / Nombre Completo" variant="solo"></v-text-field>
+                        <v-text-field v-model="asunto.value.value" class="mx-7" label="Subject / Asunto" variant="solo"></v-text-field>
+                        <v-textarea v-model="mensaje.value.value" class="mx-7" label="Message / Mensaje" variant="solo" no-resize></v-textarea>
                         <div class="d-flex justify-center">
                             <v-btn type="submit">
                                 <p>{{ $t('Contact6') }}</p>
@@ -43,10 +43,12 @@
             <div class="d-block">
                  <p class="text-h4 text-center mt-3">{{ $t('SocialMedia') }}</p>
                  <div class="d-flex ">
-                    <v-img class="ml-15 my-4" src="../assets/whatsapp.png"  width="30" height="30"></v-img>
-                    <p class="text-left ml-3 mt-5">221 530 46 60</p>
-                     <v-img class="ml-15 my-4" src="../assets/facebook.png"  width="30" height="30"></v-img>
-                     <p class="mt-5 ml-3">valle del volcán</p>
+                    <NuxtLink class="d-flex"to="https://wa.me/+522215304660" style="text-decoration: none;" target="_blank">
+                        <v-img class="ml-15 my-4" src="../assets/whatsapp.png"  width="30" height="30"></v-img>
+                        <p class="text-left ml-3 mt-5" style="color: white;">+52 221 530 46 60</p>
+                    </NuxtLink>
+                    <v-img class="ml-15 my-4" src="../assets/facebook.png"  width="30" height="30"></v-img>
+                    <p class="mt-5 ml-3">valle del volcán</p>
                  </div>
             </div>
          </v-sheet>
