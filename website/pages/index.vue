@@ -53,27 +53,30 @@
         <v-sheet color="#EFF7FA" width="100%">
             <p class="text-h4 pt-5 font-weight-bold text-center">{{ $t('homeT2') }}</p>
             <div class="pt-5 d-flex justify-space-between">
-                <v-card width="283" class="mx-auto" align="center">
-                    <v-card-title>Garrafon 19 lts</v-card-title>
-                    <v-img src="assets/garrafon.png" height="200" width="200"/>
-                    <v-card-text>
-                        $15
-                    </v-card-text>
-                </v-card>
+                
 
                 <v-card width="283" class="mx-auto" align="center">
                     <v-card-title>Botella de agua 1L</v-card-title>
                     <v-img src="assets/bottle1L.png" height="200" width="200"/>
                     <v-card-text>
+                        $13
+                    </v-card-text>
+                </v-card>
+                <v-card width="283" class="mx-auto" align="center" color="blue">
+                    
+                    <v-card-title>Garrafon 19 lts</v-card-title>
+                    <v-img src="assets/garrafon.png" height="200" width="200"/>
+                    <v-card-text>
                         $15
                     </v-card-text>
+                    <v-card subtitle="Nuestro favorito" ></v-card>
                 </v-card>
 
                 <v-card width="283" class="mx-auto" align="center">
                     <v-card-title>Botella de agua 600ml</v-card-title>
                     <v-img src="assets/bottle600ml.png" height="200" width="200"/>
                      <v-card-text>
-                        $15
+                        $11
                     </v-card-text>
                 </v-card>
             </div>
