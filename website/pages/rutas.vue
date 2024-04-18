@@ -15,7 +15,7 @@
               alt="Mapita"
               height="450"
             ></v-img>
-            <v-card-title> {{ $t("Routes3") }}</v-card-title>
+            <v-card-title> {{ $t('Routes3') }}</v-card-title>
             <v-card-text class="ml-4">
               <ul>
                 <li>San Andrés Cholula</li>
