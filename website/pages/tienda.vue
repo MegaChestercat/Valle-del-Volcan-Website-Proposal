@@ -6,81 +6,66 @@
         <v-row>
             <v-col>
                 <v-card width="283" class="mx-auto" align="center">
-                    <v-card-title>{{
-                        $t('tiendaTBoston1L')}}
-                        <br>
-                        {{ $t('tiendaTBoston1L2') }}
-                    </v-card-title>
+                    <v-card-title>{{ $t("bottle_title_1") }}</v-card-title>
                     <v-img src="assets/Boston-1.png" height="200" width="200"/>
                     <v-card-text>
-                        Botella boston con tu marca  ( Minimo 24 botellas)
+                        {{ $t("bottle_description_1") }}
                     </v-card-text>
                     <v-card-text>
-                        $13.50 c/u
+                        {{ $t("bottle_price_1") }}
                     </v-card-text>
                 </v-card>
             </v-col>
             <v-col>
                 <v-card width="283" class="mx-auto" align="center">
-                    <v-card-title>{{
-                        $t('tiendaTBoston600ml')}}
-                        <br>
-                        {{ $t('tiendaTBoston600ml2') }}
-                    </v-card-title>
+                    <v-card-title>{{ $t("bottle_title_2") }}</v-card-title>
                     <v-img src="assets/Boston-1.png" height="200" width="200"/>
                     <v-card-text>
-                        Botella boston con tu marca  ( Minimo 24 botellas)
+                        {{ $t("bottle_description_2") }}
                     </v-card-text>
                     <v-card-text>
-                        $11.50 c/u
+                        {{ $t("bottle_price_2") }}
                     </v-card-text>
                 </v-card>
             </v-col>
-           <v-col>
-            <v-card width="283" class="mx-auto" align="center">
-                    <v-card-title>{{$t('tiendaTAnillada')}}
-                        <br>
-                        {{$t('tiendaTAnillada2')}}
-                    </v-card-title>
+            <v-col>
+                <v-card width="283" class="mx-auto" align="center">
+                    <v-card-title>{{ $t("bottle_title_3") }}</v-card-title>
                     <v-img src="assets/anillada.jpg" height="200" width="200"/>
                     <v-card-text>
-                        Botella anillada con tu marca  ( Minimo 24 botellas)
+                        {{ $t("bottle_description_3") }}
                     </v-card-text>
                     <v-card-text>
-                        $9.50 c/u
+                        {{ $t("bottle_price_3") }}
                     </v-card-text>
                 </v-card>
-           </v-col>
+            </v-col>
         </v-row>
         <v-row>
             <v-col>
                 <v-card width="283" class="mx-auto" align="center">
-                    <v-card-title>Botella anillada 500ml
-                        <br>
-                        personalizada
-                    </v-card-title>
+                    <v-card-title>{{ $t("bottle_title_4") }}</v-card-title>
                     <v-img src="assets/anillada.jpg" height="200" width="200"/>
                     <v-card-text>
-                        Botella anillada con tu marca  ( Minimo 24 botellas)
+                        {{ $t("bottle_description_4") }}
                     </v-card-text>
                     <v-card-text>
-                        $7.50 c/u
+                        {{ $t("bottle_price_4") }}
                     </v-card-text>
                 </v-card>
             </v-col>
             <v-col>
                 <v-card width="283" class="mx-auto" align="center">
-                    <v-card-title>Envase garrafones</v-card-title>
+                    <v-card-title>{{ $t("bottle_title_5") }}</v-card-title>
                     <v-img src="assets/garrafon.png" height="200" width="200"/>
                     <v-card-text>
-                        Envase para garrafones de 20lt con liquido
+                        {{ $t("bottle_description_5") }}
                     </v-card-text>
                     <v-card-text>
-                        $95.00
+                        {{ $t("bottle_price_5") }}
                     </v-card-text>
                 </v-card>
             </v-col>
-            
         </v-row>
     </v-container>
     <v-footer color="light-blue-lighten-5" class="d-flex justify-center">

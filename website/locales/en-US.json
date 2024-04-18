@@ -80,5 +80,20 @@
   "purificacionB9": "Ultraviolet light is used to disinfect the water and eliminate any microorganisms.",
   "purificacionB10": "The carboy is washed with purified water and disinfected with ozone.",
   "purificacionB11": "The carboy is filled with purified water and sealed for distribution.",
-  "Routes3": "Zones"
-}
+  "Routes3": "Zones",
+  "bottle_title_1": "Boston Bottle 500ml",
+  "bottle_title_2": "Boston Bottle 1L",
+  "bottle_title_3": "Ring Bottle 500ml",
+  "bottle_title_4": "Ring Bottle 1L",
+  "bottle_title_5": "Carboy Container",
+  "bottle_description_1": "500ml Boston bottle with your personalized brand. (Minimum 24 pieces)",
+  "bottle_description_2": "1L Boston bottle with your personalized brand. (Minimum 24 pieces)", 
+  "bottle_description_3": "500ml ring bottle with your personalized brand. (Minimum 24 pieces)",  "bottle_description_4": "1L ring bottle with your personalized brand. (Minimum 24 pieces)",
+  "bottle_description_5": "20L Valle del volcán carboy container with liquid. (Minimum 24 pieces)",
+  "bottle_price_1": "$11.00",
+  "bottle_price_2": "$13.50",
+  "bottle_price_3": "$7.50",
+  "bottle_price_4": "$9.50",
+  "bottle_price_5": "$95.00"
+  }
+  
