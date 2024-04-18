@@ -13,7 +13,7 @@
                 <v-btn :to="localPath('/')" variant="plain">
                     <p class="option text-none">{{ $t('header_1') }}</p>
                 </v-btn>
-                <v-menu open-on-hover>
+                <v-menu>
                     <template v-slot:activator="{ props: menu }">
                         <v-btn variant="plain" v-bind="menu">
                             <p class="option text-none">{{ $t('header_2') }}</p>

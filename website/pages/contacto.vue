@@ -41,7 +41,9 @@
             <div class="d-block">
                  <p class="text-h4 text-center mt-3">{{ $t('SocialMedia') }}</p>
                  <div class="d-flex ">
-                     <v-img class="ml-15" src="../assets/facebook.png"  width="30" height="30"></v-img>
+                    <v-img class="ml-15 my-4" src="../assets/whatsapp.png"  width="30" height="30"></v-img>
+                    <p class="text-left ml-3 mt-5">221 530 46 60</p>
+                     <v-img class="ml-15 my-4" src="../assets/facebook.png"  width="30" height="30"></v-img>
                      <p class="mt-5 ml-3">valle del volcán</p>
                  </div>
             </div>
