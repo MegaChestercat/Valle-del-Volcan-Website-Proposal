@@ -5,7 +5,9 @@
       src="assets/volcano.jpg"
       cover>
         <div class="d-flex flex-column justify-center fill-height">
-          <div class="text-h4 ml-8" style="color: white;">Captación</div>
+          <div class="text-h4 ml-8" style="color: white;">{{
+            $t('purificacionT1')
+          }}</div>
           <div class="text-body-1 mt-10 ml-15" style="color: white;">El agua se obtiene de fuentes como pozos o manantiales.</div>
         </div>
         <v-container fluid>

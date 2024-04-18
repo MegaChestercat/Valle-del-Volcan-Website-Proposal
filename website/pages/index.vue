@@ -2,15 +2,15 @@
     <div>
         <v-carousel cycle show-arrows="hover">
             <v-carousel-item
-            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+            src="~~/assets/Portada1.png"
             cover>
             </v-carousel-item>
             <v-carousel-item
-            src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+            src="~~/assets/Portada2.png"
             cover>
             </v-carousel-item>
             <v-carousel-item
-            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+            src="~~/assets/Portada3.png"
             cover>
             </v-carousel-item>
         </v-carousel>
