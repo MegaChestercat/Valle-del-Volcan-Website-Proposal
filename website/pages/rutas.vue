@@ -33,7 +33,8 @@
     </v-container>
   </div>
 </template>
-
+<script>
+</script>
 <style scoped>
 .bg{
   background-color: #C8E8F5;

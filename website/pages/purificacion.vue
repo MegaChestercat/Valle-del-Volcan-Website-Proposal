@@ -2,7 +2,7 @@
   <div>
     <v-carousel cycle hide-delimiters height="100vh">
       <v-carousel-item
-      src="assets/volcano.jpg"
+      src="assets/purification/1.jpg"
       cover>
         <div class="d-flex flex-column justify-center fill-height">
           <div class="text-h4 ml-8" style="color: white;">{{
@@ -21,7 +21,7 @@
         </v-container>
       </v-carousel-item>
       <v-carousel-item
-        src="assets/volcano.jpg"
+        src="assets/purification/2.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
           <div class="text-h4 ml-8" style="color: white;">{{
@@ -40,7 +40,7 @@
         </v-container>
       </v-carousel-item>
       <v-carousel-item
-        src="assets/volcano.jpg"
+        src="assets/purification/3.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
           <div class="text-h4 ml-8" style="color: white;">{{
@@ -59,7 +59,7 @@
         </v-container>
       </v-carousel-item>
       <v-carousel-item
-        src="assets/volcano.jpg"
+        src="assets/purification/4.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
           <div class="text-h4 ml-8" style="color: white;">{{
@@ -78,7 +78,7 @@
         </v-container>
       </v-carousel-item>
       <v-carousel-item
-        src="assets/volcano.jpg"
+        src="assets/purification/5.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
           <div class="text-h4 ml-8" style="color: white;">{{
@@ -97,7 +97,7 @@
         </v-container>
       </v-carousel-item>
       <v-carousel-item
-        src="assets/volcano.jpg"
+        src="assets/purification/6.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
           <div class="text-h4 ml-8" style="color: white;">{{
@@ -116,7 +116,7 @@
         </v-container>
       </v-carousel-item>
       <v-carousel-item
-        src="assets/volcano.jpg"
+        src="assets/purification/7.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
           <div class="text-h4 ml-8" style="color: white;">{{
@@ -135,7 +135,7 @@
         </v-container>
       </v-carousel-item>
       <v-carousel-item
-        src="assets/volcano.jpg"
+        src="assets/purification/8.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
           <div class="text-h4 ml-8" style="color: white;">{{
@@ -154,7 +154,7 @@
         </v-container>
       </v-carousel-item>
       <v-carousel-item
-        src="assets/volcano.jpg"
+        src="assets/purification/9.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
           <div class="text-h4 ml-8" style="color: white;">{{
@@ -173,7 +173,7 @@
         </v-container>
       </v-carousel-item>
       <v-carousel-item
-        src="assets/volcano.jpg"
+        src="assets/purification/10.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
           <div class="text-h4 ml-8" style="color: white;">{{
@@ -192,7 +192,7 @@
         </v-container>
       </v-carousel-item>
       <v-carousel-item
-        src="assets/volcano.jpg"
+        src="assets/purification/11.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
           <div class="text-h4 ml-8" style="color: white;">{{
