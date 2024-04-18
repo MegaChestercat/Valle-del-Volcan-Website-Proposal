@@ -106,11 +106,11 @@
         </v-sheet>
         <v-sheet color="#A8D5E9" width="100%" class="d-flex">
             <div class="mx-16">
-                <v-img src="~~/assets/logo.png" height="250" width="250"  class="mr-10"></v-img>
+                <v-img src="~~/assets/certificacion.jpg" height="450" width="450"></v-img>
             </div>
             <div class="mx-16 mb-5">
                 <p class="text-h4 mr-10 mt-8 font-weight-bold text-center">{{ $t('homeT4') }}</p>
-                <p class="mt-4">{{ $t('home2') }}</p>
+                <p class="mt-4 text-justify">{{ $t('home2') }}</p>
                 <ul class="mx-16">
                     <li><p class="mt-4 text-justify">{{ $t('home3') }}</p></li>
                     <li><p class="mt-4 text-justify">{{ $t('home4') }}</p></li>
@@ -156,4 +156,5 @@
 const localPath = useLocalePath()
 </script>
 <style scoped>
+
 </style>

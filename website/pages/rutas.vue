@@ -1,7 +1,6 @@
 <template>
-  <div class="component-background" style="display:flex; flex-direction:column; align-items:center; justify-content:center;">
-    <!-- Texto "Routes1" ahora está por encima del contenedor principal -->
-    <p class="text-center text-h3 font-weight-bold my-10">Rutas</p>
+  <div class="bg">
+    <p class="text-center text-h3 font-weight-bold my-10">{{ $t("header_4") }}</p>
     
     <v-container fluid> <!-- "fluid" hará que el contenedor se expanda al ancho disponible -->
       <v-row justify="center">
@@ -14,24 +13,19 @@
               class="map-image" 
               src="~/assets/mapita2.png"
               alt="Mapita"
-              height="300px"
+              height="450"
             ></v-img>
-            <v-card-text>
-              Zonas
-              <br>
-              •San Andrés Cholula
-              <br>
-              •San Pedro Cholula
-              <br>
-              •Plaza San Diego
-              <br>
-              •Zerezotla
-              <br>
-              •Lomas de Angelopolis
-              <br>
-              •Angelopolis
-              <br>
-              •Central de Abastos
+            <v-card-title> {{ $t("Routes3") }}</v-card-title>
+            <v-card-text class="ml-4">
+              <ul>
+                <li>San Andrés Cholula</li>
+                <li>San Pedro Cholula</li>
+                <li>Plaza San Diego</li>
+                <li>Zerezotla</li>
+                <li>Angelopolis</li>
+                <li>Lomas de Angelopolis</li>
+                <li>Central de Abastos</li>
+              </ul>
             </v-card-text>
           </v-card>
         </v-col>
@@ -41,17 +35,7 @@
 </template>
 
 <style scoped>
-.component-background {
-  background-color: #87BFD7;
-  min-height: 100vh;
-}
-
-.map-image {
-  max-width: 100%;
-  height: auto;
-}
-
-.v-container {
-  max-width: 1400px; /* Ajusta este valor según tus necesidades */
+.bg{
+  background-color: #C8E8F5;
 }
 </style>
