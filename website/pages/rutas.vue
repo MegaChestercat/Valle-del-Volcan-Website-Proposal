@@ -5,26 +5,6 @@
     
     <v-container fluid> <!-- "fluid" hará que el contenedor se expanda al ancho disponible -->
       <v-row justify="center">
-        <!-- Columnas para la primera tarjeta, ahora tomando un ancho más grande en pantallas grandes -->
-        <v-col cols="12" lg="6" xl="5">
-          <v-card class="elevation-5 mb-4">
-            <v-img
-              height="300px"
-              src="~/assets/frontPurificadora.jpeg"
-              alt="Purificadora"
-            ></v-img>
-            <v-card-title>
-              Dirección
-            </v-card-title>
-            <v-card-text>
-              Cam. Real a San Andrés 1230, Sin Nombre de Col 4, 72810 San Andrés Cholula, Pue.
-              <br>
-              Número de teléfono: 2222384485
-              <br>
-              Horario: 9am - 10pm
-            </v-card-text>
-          </v-card>
-        </v-col>
 
         <!-- Columnas para la imagen del mapita, ahora dentro de una tarjeta -->
         <v-col cols="12" lg="6" xl="5">

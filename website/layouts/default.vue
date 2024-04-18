@@ -42,7 +42,7 @@
                 <v-btn :to="localPath('/contacto')" variant="plain">
                     <p class="option text-none">{{ $t('header_5') }}</p>
                 </v-btn>
-                <v-btn :to="localPath('/carrito')" variant="plain" icon>
+                <v-btn @click="cartAlert" variant="plain" icon>
                     <v-icon class="option">mdi-cart-outline</v-icon>
                 </v-btn>
                 <v-btn variant="plain" @click="spanishLan">
@@ -62,6 +62,15 @@
 <script setup>
  const {setLocale} = useI18n();
  const localPath = useLocalePath()
+ import Swal from 'sweetalert2'
+
+ const cartAlert = () =>{
+    Swal.fire({
+        title: "Función no habilitada (Prototipo)",
+        text: "Este botón no se encuentra habilitado para la versión actual del sitio web.",
+        icon: "warning"
+    })
+ }
 
 const englishLan = () =>{
     setLocale("en-US")
