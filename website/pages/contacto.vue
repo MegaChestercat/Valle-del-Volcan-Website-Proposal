@@ -13,6 +13,8 @@
                     {{ $t('AddressT1') }}
                     </v-card-title>
                     <v-card-text>
+                        {{ $t('AddressT2') }}
+                    <br>
                         {{ $t('Address1') }}
                     <br>
                     {{ $t('Address2') }}
@@ -58,6 +60,7 @@
 </template>
 <script setup>
 import { useField, useForm } from 'vee-validate'
+import Swal from 'sweetalert2'
 
 const { handleSubmit, handleReset } = useForm({
     validationSchema: {
@@ -75,6 +78,11 @@ const asunto = useField('asunto')
 const mensaje = useField('mensaje')
 
 const submit = handleSubmit( async values => {
+    Swal.fire({
+        title: "Mensaje Enviado",
+        text: "Se ha enviado tu mensaje a la empresa. En breve te contactaremos.",
+        icon: "success"
+    })
     const {data: db, error, status} = await useFetch('/api/email/', {
         method: 'POST',
         timeout: 15000,
