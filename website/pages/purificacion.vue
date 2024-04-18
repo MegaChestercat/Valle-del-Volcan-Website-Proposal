@@ -8,7 +8,9 @@
           <div class="text-h4 ml-8" style="color: white;">{{
             $t('purificacionT1')
           }}</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">El agua se obtiene de fuentes como pozos o manantiales.</div>
+          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+            $t('purificacionB1')
+          }}</div>
         </div>
         <v-container fluid>
           <v-col justify-center align-center>
@@ -22,8 +24,12 @@
         src="assets/volcano.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
-          <div class="text-h4 ml-8" style="color: white;">Agua cruda</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">Se analiza el agua para determinar su calidad inicial y los contaminantes presentes.</div>
+          <div class="text-h4 ml-8" style="color: white;">{{
+            $t('purificacionT2')
+          }}</div>
+          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+            $t('purificacionB2')
+          }}</div>
         </div>
         <v-container fluid>
           <v-col justify-center align-center>
@@ -37,8 +43,12 @@
         src="assets/volcano.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
-          <div class="text-h4 ml-8" style="color: white;">Hidroneumático</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">Se bombea el agua a los tanques de tratamiento mediante una bomba hidráulica.</div>
+          <div class="text-h4 ml-8" style="color: white;">{{
+            $t('purificacionT3')
+          }}</div>
+          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+            $t('purificacionB3')
+          }}</div>
         </div>
         <v-container fluid>
           <v-col justify-center align-center>
@@ -52,8 +62,12 @@
         src="assets/volcano.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
-          <div class="text-h4 ml-8" style="color: white;">Filtro de arena y carbón activado</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">Elimina sedimentos, partículas en suspensión, cloro, olores y sabores desagradables.</div>
+          <div class="text-h4 ml-8" style="color: white;">{{
+            $t('purificacionT4')
+          }}</div>
+          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+            $t('purificacionB4')
+          }}</div>
         </div>
         <v-container fluid>
           <v-col justify-center align-center>
@@ -67,8 +81,12 @@
         src="assets/volcano.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
-          <div class="text-h4 ml-8" style="color: white;">Ablandador</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">Reduce la dureza del agua, eliminando minerales como el calcio y magnesio.</div>
+          <div class="text-h4 ml-8" style="color: white;">{{
+            $t('purificacionT5')
+          }}</div>
+          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+            $t('purificacionB5')
+          }}</div>
         </div>
         <v-container fluid>
           <v-col justify-center align-center>
@@ -82,8 +100,12 @@
         src="assets/volcano.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
-          <div class="text-h4 ml-8" style="color: white;">Electrólisis</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">Destruye bacterias y virus mediante una corriente eléctrica.</div>
+          <div class="text-h4 ml-8" style="color: white;">{{
+            $t('purificacionT6')
+          }}</div>
+          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+            $t('purificacionB6')
+          }}</div>
         </div>
         <v-container fluid>
           <v-col justify-center align-center>
@@ -97,8 +119,12 @@
         src="assets/volcano.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
-          <div class="text-h4 ml-8" style="color: white;">Agua Purificada</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">Se almacena el agua libre de contaminantes en un tanque de agua purificada.</div>
+          <div class="text-h4 ml-8" style="color: white;">{{
+            $t('purificacionT7')
+          }}</div>
+          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+            $t('purificacionB7')
+          }}</div>
         </div>
         <v-container fluid>
           <v-col justify-center align-center>
@@ -112,8 +138,12 @@
         src="assets/volcano.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
-          <div class="text-h4 ml-8" style="color: white;">Ozonificación</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">Se agrega ozono para eliminar microorganismos restantes y mejorar el sabor y olor.</div>
+          <div class="text-h4 ml-8" style="color: white;">{{
+            $t('purificacionT8')
+          }}</div>
+          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+            $t('purificacionB8')
+          }}</div>
         </div>
         <v-container fluid>
           <v-col justify-center align-center>
@@ -127,8 +157,12 @@
         src="assets/volcano.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
-          <div class="text-h4 ml-8" style="color: white;">Luz Ultravioleta</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">Inactiva virus y bacterias mediante radiación UV.</div>
+          <div class="text-h4 ml-8" style="color: white;">{{
+            $t('purificacionT9')
+          }}</div>
+          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+            $t('purificacionB9')
+          }}</div>
         </div>
         <v-container fluid>
           <v-col justify-center align-center>
@@ -142,8 +176,12 @@
         src="assets/volcano.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
-          <div class="text-h4 ml-8" style="color: white;">Lavado de garrafón</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">Se limpian y desinfectan las garrafones antes de su llenado.</div>
+          <div class="text-h4 ml-8" style="color: white;">{{
+            $t('purificacionT10')
+          }}</div>
+          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+            $t('purificacionB10')
+          }}</div>
         </div>
         <v-container fluid>
           <v-col justify-center align-center>
@@ -157,8 +195,12 @@
         src="assets/volcano.jpg"
         cover>
         <div class="d-flex flex-column justify-center fill-height">
-          <div class="text-h4 ml-8" style="color: white;">Llenado</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">Se llenan las garrafones con agua purificada y se sellan herméticamente.</div>
+          <div class="text-h4 ml-8" style="color: white;">{{
+            $t('purificacionT11')
+          }}</div>
+          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+            $t('purificacionB11')
+          }}</div>
         </div>
         <v-container fluid>
           <v-col justify-center align-center>
