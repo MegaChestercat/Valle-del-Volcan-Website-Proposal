@@ -79,6 +79,7 @@
                             <v-card-text class="size">
                                 {{ $t("bottle_price_1") }}
                             </v-card-text>
+                            <v-btn class="btn-bg my-4" @click="buyAlert" size="large" rounded="lg" append-icon="mdi-plus">{{ $t('add_cart') }}</v-btn>
                         </v-card>
                     </v-col>
                     <v-col>
@@ -91,6 +92,7 @@
                             <v-card-text class="size">
                                 {{ $t("bottle_price_2") }}
                             </v-card-text>
+                            <v-btn class="btn-bg my-4" @click="buyAlert" size="large" rounded="lg" append-icon="mdi-plus">{{ $t('add_cart') }}</v-btn>
                         </v-card>
                     </v-col>
 
@@ -104,6 +106,7 @@
                             <v-card-text class="size">
                                 {{ $t("bottle_price_3") }}
                             </v-card-text>
+                            <v-btn class="btn-bg my-4" @click="buyAlert" size="large" rounded="lg" append-icon="mdi-plus">{{ $t('add_cart') }}</v-btn>
                         </v-card>
                     </v-col>
                 </v-row>
@@ -182,13 +185,30 @@
     </div>
 </template>
 <script setup>
+import Swal from 'sweetalert2'
 const localPath = useLocalePath()
 useHead({
   title: 'Valle del Volcán - Inicio'
 })
+
+const buyAlert = () =>{
+    Swal.fire({
+        title: "Función no habilitada (Prototipo)",
+        text: "Este botón no se encuentra habilitado para la versión actual del sitio web.",
+        icon: "warning"
+    })
+ }
 </script>
 <style scoped>
 .size{
     font-size: 18px;
+}
+
+.btn-bg{
+    background-color: white;
+}
+
+.btn-bg:hover{
+    background-color: lightblue;
 }
 </style>
