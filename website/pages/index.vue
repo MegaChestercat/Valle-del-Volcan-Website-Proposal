@@ -154,7 +154,7 @@
                 <p class="text-justify size">{{ $t('home5') }}</p>
                 <p class="text-justify mt-7 size">{{ $t('home6') }}</p>
                 <div class="d-flex justify-center align-center my-16">
-                    <v-btn elevation="4" :to="localPath('/rutas')" class="text-none" size="x-large"prepend-icon="mdi-truck">
+                    <v-btn elevation="4" :to="localPath('/rutas')" class="text-none" size="x-large" prepend-icon="mdi-truck">
                         {{ $t('homeBTN2') }}
                     </v-btn>
                 </div>
