@@ -3,10 +3,10 @@
         <v-sheet height="300" width="100%" color="#EFF7FA">
             <p class="text-center text-h4 pt-5 font-weight-bold">{{ $t('sub_3') }}</p>
             <div class="mx-15 mt-10">
-             <p class="text-center">{{ $t('Portfolio1') }}</p>
-             <p class=" text-center mt-4">{{ $t('Portfolio2') }}</p>
-             <p class="mt-8 font-italic text-center">{{ $t('Portfolio3') }}</p>
-             <p class="mt-6 text-h6 font-italic text-center">{{ $t('Portfolio4') }}</p> 
+             <p class="text-center size">{{ $t('Portfolio1') }}</p>
+             <p class=" text-center mt-4 size">{{ $t('Portfolio2') }}</p>
+             <p class="mt-8 font-italic text-center size">{{ $t('Portfolio3') }}</p>
+             <p class="mt-6 text-h5 font-italic text-center">{{ $t('Portfolio4') }}</p> 
             </div>
         </v-sheet>
         <v-container class="my-10">
@@ -50,5 +50,8 @@
 </template>
 <script>
 </script>
-<style>
+<style scoped>
+.size{
+  font-size: 18px;
+}
 </style>

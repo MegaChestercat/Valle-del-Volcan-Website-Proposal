@@ -10,6 +10,7 @@
     "homeT1": "Who we are?",
     "homeT2": "Most Selled Products",
     "homeT3_1": "24hr Self-Service",
+    "Services3_4": "24hrs Available ",
     "homeT3_2": "Purification Process",
     "homeT4": "Certifications",
     "homeT5": "Routes",
@@ -45,7 +46,7 @@
     "Services4_1": "Simplify your life with our vending machine, always ready to provide you with the freshness and purity of water you deserve.",
     "AddressT1": "Address",
     "AddressT2": "Cam. Real a San Andrés 1230, Sin Nombre de Col 4, 72810 San Andrés Cholula, Pue.",
-    "Address1": "Phone Number: (222) 238-44-85",
+    "Address1": "Phone Number: (221) 530-46-60",
     "Address2": "Working Hours: 9 a.m. - 10 p.m.",
     "Contact1": "Contact Us",
     "Contact2": "Email",
@@ -88,12 +89,16 @@
   "bottle_title_5": "Carboy Container",
   "bottle_description_1": "500ml Boston bottle with your personalized brand. (Minimum 24 pieces)",
   "bottle_description_2": "1L Boston bottle with your personalized brand. (Minimum 24 pieces)", 
-  "bottle_description_3": "500ml ring bottle with your personalized brand. (Minimum 24 pieces)",  "bottle_description_4": "1L ring bottle with your personalized brand. (Minimum 24 pieces)",
+  "bottle_description_3": "500ml ring bottle with your personalized brand. (Minimum 24 pieces)",  
+  "bottle_description_4": "1L ring bottle with your personalized brand. (Minimum 24 pieces)",
   "bottle_description_5": "20L Valle del volcán carboy container with liquid. (Minimum 24 pieces)",
   "bottle_price_1": "$11.00",
   "bottle_price_2": "$13.50",
   "bottle_price_3": "$7.50",
   "bottle_price_4": "$9.50",
-  "bottle_price_5": "$95.00"
-  }
+  "bottle_price_5": "$95.00",
+  "front1": "100% Mexican Business",
+  "front2": "Professional Filling and Sealing",
+  "front3": "High Quality Standards"
+}
   

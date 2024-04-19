@@ -15,16 +15,16 @@
               alt="Mapita"
               height="450"
             ></v-img>
-            <v-card-title> {{ $t('Routes3') }}</v-card-title>
+            <v-card-title class="font-weight-bold"> {{ $t('Routes3') }}</v-card-title>
             <v-card-text class="ml-4">
               <ul>
-                <li>San Andrés Cholula</li>
-                <li>San Pedro Cholula</li>
-                <li>Plaza San Diego</li>
-                <li>Zerezotla</li>
-                <li>Angelopolis</li>
-                <li>Lomas de Angelopolis</li>
-                <li>Central de Abastos</li>
+                <li class="size">San Andrés Cholula</li>
+                <li class="size">San Pedro Cholula</li>
+                <li class="size">Plaza San Diego</li>
+                <li class="size">Zerezotla</li>
+                <li class="size">Angelopolis</li>
+                <li class="size">Lomas de Angelopolis</li>
+                <li class="size">Central de Abastos</li>
               </ul>
             </v-card-text>
           </v-card>
@@ -38,5 +38,8 @@
 <style scoped>
 .bg{
   background-color: #C8E8F5;
+}
+.size{
+  font-size: 18px;
 }
 </style>

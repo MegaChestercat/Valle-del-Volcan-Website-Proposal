@@ -8,7 +8,7 @@
           <div class="text-h4 ml-8" style="color: white;">{{
             $t('purificacionT1')
           }}</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+          <div class="size mt-10 ml-15" style="color: white;">{{
             $t('purificacionB1')
           }}</div>
         </div>
@@ -27,7 +27,7 @@
           <div class="text-h4 ml-8" style="color: white;">{{
             $t('purificacionT2')
           }}</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+          <div class="size mt-10 ml-15" style="color: white;">{{
             $t('purificacionB2')
           }}</div>
         </div>
@@ -46,7 +46,7 @@
           <div class="text-h4 ml-8" style="color: white;">{{
             $t('purificacionT3')
           }}</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+          <div class="size mt-10 ml-15" style="color: white;">{{
             $t('purificacionB3')
           }}</div>
         </div>
@@ -65,7 +65,7 @@
           <div class="text-h4 ml-8" style="color: white;">{{
             $t('purificacionT4')
           }}</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+          <div class="size mt-10 ml-15" style="color: white;">{{
             $t('purificacionB4')
           }}</div>
         </div>
@@ -84,7 +84,7 @@
           <div class="text-h4 ml-8" style="color: white;">{{
             $t('purificacionT5')
           }}</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+          <div class="size mt-10 ml-15" style="color: white;">{{
             $t('purificacionB5')
           }}</div>
         </div>
@@ -103,7 +103,7 @@
           <div class="text-h4 ml-8" style="color: white;">{{
             $t('purificacionT6')
           }}</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+          <div class="size mt-10 ml-15" style="color: white;">{{
             $t('purificacionB6')
           }}</div>
         </div>
@@ -122,7 +122,7 @@
           <div class="text-h4 ml-8" style="color: white;">{{
             $t('purificacionT7')
           }}</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+          <div class="size mt-10 ml-15" style="color: white;">{{
             $t('purificacionB7')
           }}</div>
         </div>
@@ -141,7 +141,7 @@
           <div class="text-h4 ml-8" style="color: white;">{{
             $t('purificacionT8')
           }}</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+          <div class="size mt-10 ml-15" style="color: white;">{{
             $t('purificacionB8')
           }}</div>
         </div>
@@ -160,7 +160,7 @@
           <div class="text-h4 ml-8" style="color: white;">{{
             $t('purificacionT9')
           }}</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+          <div class="size mt-10 ml-15" style="color: white;">{{
             $t('purificacionB9')
           }}</div>
         </div>
@@ -179,7 +179,7 @@
           <div class="text-h4 ml-8" style="color: white;">{{
             $t('purificacionT10')
           }}</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+          <div class="size mt-10 ml-15" style="color: white;">{{
             $t('purificacionB10')
           }}</div>
         </div>
@@ -198,7 +198,7 @@
           <div class="text-h4 ml-8" style="color: white;">{{
             $t('purificacionT11')
           }}</div>
-          <div class="text-body-1 mt-10 ml-15" style="color: white;">{{
+          <div class="size mt-10 ml-15" style="color: white;">{{
             $t('purificacionB11')
           }}</div>
         </div>
@@ -222,21 +222,26 @@
 <script setup>
 </script>
 <style scoped>
-  .circle {
-    /* ... estilos existentes ... */
-    height: 50px;
-  width: 50px;
-  background-color: lightblue;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 24px;
-    position: absolute;
-    bottom: 20px; 
-    left: 50%;
-    transform: translateX(-50%); 
-  }
+.circle {
+  /* ... estilos existentes ... */
+  height: 50px;
+width: 50px;
+background-color: lightblue;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 24px;
+position: absolute;
+bottom: 20px; 
+left: 50%;
+transform: translateX(-50%); 
+  
+}
+
+.size{
+  font-size: 18px;
+}
   </style>
   

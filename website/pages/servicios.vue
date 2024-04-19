@@ -8,8 +8,8 @@
                 </div>
                 <div class="mx-16 d-flex align-center" >
                     <div class="d-block">
-                        <p class="text-justify">{{ $t('Services1') }}</p>
-                        <p class="text-justify mt-4">{{ $t('Services1_1') }}</p>
+                        <p class="text-justify size">{{ $t('Services1') }}</p>
+                        <p class="text-justify mt-4 size">{{ $t('Services1_1') }}</p>
                     </div>
                 </div>
             </div>
@@ -19,8 +19,8 @@
             <div class="ml-7 d-flex">
                 <div class="mx-16 mt-16 d-flex">
                     <div class="d-block">
-                        <p class="text-justify">{{ $t('Services2') }}</p>
-                        <p class="mt-4">{{ $t('Services2_1') }}</p>
+                        <p class="text-justify size">{{ $t('Services2') }}</p>
+                        <p class="mt-4 size">{{ $t('Services2_1') }}</p>
                         <div class="d-flex justify-center">
                             <v-btn color="white" size="large" class="my-4 text-none" prepend-icon="mdi-truck" :to="localPath('/rutas')">{{ $t('ServicesBTN1') }}</v-btn>
                         </div>
@@ -35,19 +35,19 @@
             <div class="ml-7 d-flex">
                 <v-img src="~~/assets/Ventanilla.jpeg" height="450" width="450"  class="mr-10"></v-img>
                 <div class="mx-16 mt-16 flex-column " style="display: flex; align-items: center;">
-                    <p class="text-justify">{{ $t('Services3') }}</p>
-                    <p class="text-justify font-italic mt-5">{{ $t('Services3_1') }}</p>
+                    <p class="text-justify size">{{ $t('Services3') }}</p>
+                    <p class="text-justify font-italic mt-5 size">{{ $t('Services3_1') }}</p>
                 </div>
             </div>
             
         </v-sheet>
         <v-sheet color="#71ABC3" width="100%" >
-            <p class="text-h4 ml-10 pt-5 text-center">Disponible 24hrs</p>
+            <p class="text-h4 ml-10 pt-5 text-center">{{ $t('Services3_4') }}</p>
             <div class="px-7">
                 <div class="mx-16 mt-16 flex" style="display: flex; align-items: center;">
                     <div class="d-block">
-                        <p class="text-center">{{ $t('Services4') }}</p>
-                        <p class="text-center font-italic mt-5">{{ $t('Services4_1') }}</p>
+                        <p class="text-center size">{{ $t('Services4') }}</p>
+                        <p class="text-center font-italic mt-5 size">{{ $t('Services4_1') }}</p>
                     </div>
                 </div>
                 <div class="d-flex justify-center">
@@ -71,5 +71,7 @@ const localPath = useLocalePath()
 
 </script>
 <style scoped>
-
+.size{
+    font-size: 18px;
+}
 </style>
