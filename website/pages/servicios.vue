@@ -69,6 +69,9 @@
 <script setup>
 const localPath = useLocalePath()
 
+useHead({
+  title: 'Valle del Volcán - Servicios'
+})
 </script>
 <style scoped>
 .size{

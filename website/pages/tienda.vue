@@ -75,6 +75,11 @@
     </v-footer>
 </div>
 </template>
+<script setup>
+useHead({
+  title: 'Valle del Volcán - Tienda'
+})
+</script>
 <style scoped>
 .size{
     font-size: 18px;

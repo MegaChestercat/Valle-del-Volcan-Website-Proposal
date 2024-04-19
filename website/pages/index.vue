@@ -183,6 +183,9 @@
 </template>
 <script setup>
 const localPath = useLocalePath()
+useHead({
+  title: 'Valle del Volcán - Inicio'
+})
 </script>
 <style scoped>
 .size{

@@ -33,7 +33,10 @@
     </v-container>
   </div>
 </template>
-<script>
+<script setup>
+useHead({
+  title: 'Valle del Volcán - Rutas'
+})
 </script>
 <style scoped>
 .bg{

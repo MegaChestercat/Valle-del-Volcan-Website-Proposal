@@ -48,7 +48,10 @@
         </v-footer>
     </div>
 </template>
-<script>
+<script setup>
+useHead({
+  title: 'Valle del Volcán - Portafolio'
+})
 </script>
 <style scoped>
 .size{

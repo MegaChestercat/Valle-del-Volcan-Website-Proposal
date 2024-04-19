@@ -220,6 +220,9 @@
 </template>
 
 <script setup>
+useHead({
+  title: 'Valle del Volcán - Purificación'
+})
 </script>
 <style scoped>
 .circle {

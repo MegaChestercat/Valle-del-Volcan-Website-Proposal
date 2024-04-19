@@ -64,6 +64,10 @@
 import { useField, useForm } from 'vee-validate'
 import Swal from 'sweetalert2'
 
+useHead({
+  title: 'Valle del Volcán - Contacto'
+})
+
 const { handleSubmit, handleReset } = useForm({
     validationSchema: {
         email (value) {
