@@ -15,7 +15,7 @@
                 </v-btn>
                 <v-menu>
                     <template v-slot:activator="{ props: menu }">
-                        <v-btn variant="plain" v-bind="menu">
+                        <v-btn variant="plain" v-bind="menu" append-icon="mdi-chevron-down">
                             <p class="option text-none">{{ $t('header_2') }}</p>
                         </v-btn>
                     </template>
